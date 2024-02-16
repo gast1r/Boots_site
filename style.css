@@ -1,0 +1,251 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font: Arial 14px;
+}
+
+#head {
+  color: black;
+  background: white;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.caterogies {
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 1.8%;
+  margin-left: 2%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  display: inline-block;
+
+}
+
+#new {
+  margin-left: 2%;
+}
+
+#name {
+  padding-left: 2%;
+  width: 22%;
+  font-size: 28px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  display: inline-block;
+  margin-top: 1%;
+}
+
+/* Верх */
+#dostavka {
+  color: black;
+  text-align: center;
+  background: rgba(170, 254, 212);
+  height: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-Mon {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* О нас и тд */
+#info {
+  background: #f3f3f3;
+  height: 40px;
+  width: 100%;
+  color: black;
+}
+
+#about_us {
+  margin-left: 43%;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  width: 40px;
+}
+
+#mag {
+  margin-left: 2%;
+}
+
+.header_up {
+  margin-left: 1%;
+  margin-top: 0.8%;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  width: 40px;
+}
+
+/* ботинки */
+#menu-boots {
+  background: white;
+  height: 40%;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.boot_1 {
+  border-radius: 5px;
+  max-width: 235px;
+  height: 330px;
+  margin-left: 4%;
+  font-size: 17px;
+  margin-top: 2%;
+  background: white;
+  float: left;
+}
+
+#creater {
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#cross {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  float: left;
+}
+
+#coast {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  float: left;
+}
+
+#boot_2 {
+  height: 330px;
+}
+
+/* тапки */
+.tapki {
+  color: black;
+  transition: color 0.5s;
+}
+
+/* смена цвета при нажатие (джс надо) */
+.boot_1:hover {
+  color: #fff167;
+}
+
+/* бар */
+#head_menu {
+  margin-top: 1%;
+  display: none;
+  margin-left: 74%;
+}
+
+/* нет в наличии */
+#no_amount {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#skidki {
+  margin-right: 2%;
+}
+
+/* Адаптация */
+@media (max-Width: 731px) {
+  #name {
+    margin-top: -0.6%;
+    font-size: 28px;
+    width: 18%;
+  }
+}
+
+@media (max-width:640px) {
+  .caterogies {
+    display: none;
+  }
+
+  #head_menu {
+    display: block;
+    width: 4%;
+    height: 38%;
+  }
+
+  #name {
+    width: 12%;
+    height: 105%;
+    font-size: 28px;
+    margin-top: -0.6%;
+  }
+
+  #about_us {}
+
+  #boot_1 {
+    width: 235px;
+  }
+}
+
+/* Iphone 14 pro max and samsung */
+@media (max-Width: 375px) {
+  #head_menu {
+    margin-left: 59%;
+    width: 6%;
+  }
+
+  #mag {
+    margin-left: 9%;
+  }
+
+  #name {
+    width: 22%;
+  }
+
+  .boot_1 {
+    margin-left: 18%;
+  }
+
+  #about_us {
+    margin-left: 28%;
+  }
+
+  .header_up {
+    width: 10%;
+    margin-left: 2%;
+  }
+
+  #piz {
+    margin-left: 7%;
+  }
+
+  .header_up {
+    margin-top: 2.5%;
+  }
+}
